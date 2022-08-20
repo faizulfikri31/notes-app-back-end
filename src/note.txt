@@ -1,0 +1,9 @@
+1. Klik Change URL  dan masukan alamat server yaitu localhost:5000
+2. Buat web server dengan 4 file utama yaitu server, routes, handler, notes
+3. Buatlah route dengan method 'POST' dan path './notes'
+4. Kemudian buatlah handler yang nantinya akan merespon dengan menambahkan data pada notes.js
+5. Dalam mengkonsumsi API dalam beberapa kasus, contohnya seperti file yang kita buat maka kita harus menyamakan protokol, host dan port number. Kedua origin yang berbeda anatara yang mengkonsumsi dan server menyebabkanya tidak bisa berkomunikasi.
+6. Solusinya dengan menggunakan CORS(Cross Origin resource sharing) dan memberikan nilai 'Access-Control-Allow-Origin' pada header web server dengan nilai origin luar yang mengkonsumsi datanya
+7. Menyelesaikan masalah menampilkan catatan pada aplikasi yang hendak dipakai
+8. Menambahkan fitur edit catatan
+9. Menambahkan fitur untuk menambah catatan
